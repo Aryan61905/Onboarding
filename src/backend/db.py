@@ -12,7 +12,10 @@ CORS(app)
 DATABASE_URL = 'postgresql://onboarding_hnxw_user:CdXxrvb1gG6FMhRUCv0Sc2kZtKT1uw52@dpg-d297lqe3jp1c73felki0-a.oregon-postgres.render.com/onboarding_hnxw'
 
 def get_db():
-    conn = psycopg2.connect(DATABASE_URL)
+    conn = psycopg2.connect(
+        DATABASE_URL,
+        sslmode='require' 
+    )
     return conn
 
 def init_db():
@@ -175,4 +178,4 @@ def save_profile():
         return jsonify({'success': False, 'error': str(e)}), 500
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=8080, debug=True)
+    app.run(host='0.0.0.0', port=8080)
