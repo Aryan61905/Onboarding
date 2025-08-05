@@ -4,12 +4,12 @@ import psycopg2
 from psycopg2.extras import DictCursor
 import hashlib
 from urllib.parse import urlparse
-
+import os
 app = Flask(__name__)
 CORS(app)
 
 
-DATABASE_URL = 'postgresql://onboarding_hnxw_user:CdXxrvb1gG6FMhRUCv0Sc2kZtKT1uw52@dpg-d297lqe3jp1c73felki0-a.oregon-postgres.render.com/onboarding_hnxw'
+DATABASE_URL = os.getenv('DATABASE_URL')
 
 def get_db():
     conn = psycopg2.connect(

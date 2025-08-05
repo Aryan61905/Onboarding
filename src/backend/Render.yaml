@@ -4,4 +4,6 @@ services:
     runtime: python
     buildCommand: "pip install -r requirements.txt"
     startCommand: "gunicorn db:app"
-    
+    envVars:
+    - key: DATABASE_URL
+      value: postgresql://onboarding_hnxw_user:CdXxrvb1gG6FMhRUCv0Sc2kZtKT1uw52@dpg-d297lqe3jp1c73felki0-a.oregon-postgres.render.com/onboarding_hnxw
