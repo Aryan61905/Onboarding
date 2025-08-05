@@ -1,0 +1,87 @@
+.admin-container {
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .pages-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    margin: 2rem 0;
+  }
+  
+  .page-column {
+    background: white;
+    padding: 1rem;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  }
+  
+  .components-list {
+    min-height: 150px;
+    margin-top: 1rem;
+  }
+  
+  .component-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem;
+    margin-bottom: 0.5rem;
+    background: #e9f7fe;
+    border-radius: 4px;
+  }
+  
+  .component-item.unassigned {
+    background: #fff3cd;
+  }
+  
+  .component-actions {
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  .move-button, .assign-button {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.8rem;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .move-button {
+    background: #d1ecf1;
+    color: #0c5460;
+  }
+  
+  .assign-button {
+    background: #d4edda;
+    color: #155724;
+  }
+  
+  .unassigned-section {
+    margin: 2rem 0;
+    padding: 1rem;
+    background: white;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  }
+  
+  .save-button {
+    padding: 0.75rem 1.5rem;
+    background-color: #4285f4;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .save-button:hover {
+    background-color: #3367d6;
+  }

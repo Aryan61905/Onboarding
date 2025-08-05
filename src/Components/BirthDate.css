@@ -1,0 +1,32 @@
+.birthdate-selector-container {
+    margin: 20px 0;
+    max-width: 600px;
+  }
+  
+  .date-selector-row {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .date-selector-group {
+    flex: 1;
+  }
+  
+  .date-selector-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+  }
+  
+  .date-selector-group select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .selected-date {
+    margin-top: 10px;
+    font-style: italic;
+    color: #555;
+  }

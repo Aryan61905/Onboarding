@@ -1,0 +1,149 @@
+.page2-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .page2-content {
+    margin-top: 2rem;
+    line-height: 1.6;
+  }
+  
+  .nav-button {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.75rem 1.5rem;
+    background-color: #4285f4;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .nav-button:hover {
+    background-color: #3367d6;
+  }
+  .button-group {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+    justify-content: center;
+  }
+  
+  .logout-button {
+    padding: 0.75rem 1.5rem;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .logout-button:hover {
+    background-color: #c82333;
+  }
+  
+  .submit-button {
+    padding: 0.75rem 1.5rem;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-button:hover {
+    background-color: #218838;
+  }
+  
+  .nav-button {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: #4285f4;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  .admin-button {
+    padding: 0.75rem 1.5rem;
+    background-color: #6c757d;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .admin-button:hover {
+    background-color: #5a6268;
+  }
+  
+  .component-wrapper {
+    margin-bottom: 2rem;
+    border: 1px solid #eee;
+    padding: 1rem;
+    border-radius: 4px;
+  }
+  
+  .nav-button:hover {
+    background-color: #3367d6;
+  }
+ 
+.page2-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+
+.form-actions {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+
+.nav-button,
+.submit-button,
+.logout-button {
+  padding: 0.75rem 1.5rem;
+  min-width: 120px;
+  text-align: center;
+}
+
+
+.logout-button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+
+.submit-button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+
+.nav-button {
+  background-color: #6c757d;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  display: inline-block;
+  text-align: center;
+}
+
+
+.admin-link {
+  margin-top: 1rem;
+  text-align: center;
+}
